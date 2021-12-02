@@ -162,3 +162,7 @@ html, body {
     border: 2px solid #1c1c1c;
     border-radius: 2rem;
   }
+
+  #about {
+    text-align: center;
+  }
