@@ -2,7 +2,7 @@ html, body {
     background: #2c2c2c;
     scroll-behavior: smooth;
     margin: 0px;
-    font-family: "sans-serif" monospace;
+    font-family: "sans-serif", monospace;
     overflow-x: hidden;
   }
   
