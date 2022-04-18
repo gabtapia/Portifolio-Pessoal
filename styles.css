@@ -21,7 +21,7 @@ html, body {
     background: rgb(112,112,112);
     background: radial-gradient(circle, rgba(112,112,112,1) 0%, rgba(43,43,43,1) 100%);
     font-size: 3em;
-    margin-bottom: 100px;
+    margin-bottom: 1rem;
     color: #00c0ff;
   }
   
@@ -42,8 +42,18 @@ html, body {
     height: auto;
     display: flex;
     flex-direction: column;
-    position: relative;
-    bottom: 110px;
+  }
+
+  @media screen and (max-width: 760px) {
+    .project-img {
+      width: 200%;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .project-img {
+      width: 300%;
+    }
   }
   
   .my-projects .project-img {
@@ -72,11 +82,11 @@ html, body {
     justify-content: center;
     padding: 1.5rem;
   }
-  
-  .p-div {
-    position: relative;
-    top: 222px;
-    z-index: 90;
+
+  #about {
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
   }
   
   a {
@@ -161,8 +171,4 @@ html, body {
     flex-direction: row;
     border: 2px solid #1c1c1c;
     border-radius: 2rem;
-  }
-
-  #about {
-    text-align: center;
   }
