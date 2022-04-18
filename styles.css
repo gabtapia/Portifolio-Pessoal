@@ -45,6 +45,10 @@ html, body {
   }
 
   @media screen and (max-width: 760px) {
+    #welcome-section {
+      text-align: center;
+    }
+    
     .project-img {
       width: 200%;
     }
